@@ -55,8 +55,6 @@ header h1 {
 main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
 }
 
 #aboutMe {
@@ -113,15 +111,41 @@ main {
     border: 5px solid var(--cyan);
 }
 
+.workImg:hover {
+    box-shadow: 8px 2px 5px var(--cyan);
+}
 
 footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50px;
+    height: fit-content;
     background-color: var(--coral);
     color: white;
+    font-weight: bold;
+}
+
+
+footer section{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-right: 10px;
+    background-color: var(--cyan);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2px;
+    color: black;
+}
+
+footer section a {
+    text-decoration: none;
+    color: black;
+}
+
+footer div {
+    padding-bottom: 5px;
 }
 
 @media screen and (max-width:830px) {
@@ -135,8 +159,6 @@ footer {
         height: 150px;
     }
 }
-
-
 
 @media screen and (max-width:280px) {
     #navSec a {
@@ -152,7 +174,6 @@ footer {
         height: 100px;
     }
 }
-
 
 @media screen and (max-width:400px) {
    #aboutMe img {
