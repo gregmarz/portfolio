@@ -148,15 +148,27 @@ footer div {
     padding-bottom: 5px;
 }
 
+.click {
+    user-select: all;
+}
+
 @media screen and (max-width:830px) {
     #workBig img {
         height: 200px;
+    }
+    .workImg {
+        height: 125px;
+        width: auto;
     }
 }
 
 @media screen and (max-width:550px) {
     #workBig img {
-        height: 150px;
+        height: 125px;
+    }
+    .workImg {
+        height: 100px;
+        width: auto;
     }
 }
 
@@ -173,6 +185,10 @@ footer div {
     #workBig img{
         height: 100px;
     }
+    .workImg {
+        height: 100px;
+        width: auto;
+    }
 }
 
 @media screen and (max-width:400px) {
@@ -183,6 +199,10 @@ footer div {
    #workBig img a {
     height: 200px;
    }
+   .workImg {
+    height: 150px;
+    width: auto;
+   }
    
 }
 
@@ -190,4 +210,8 @@ footer div {
     #aboutMe img {
     height: 100px;
     }    
+    .workImg {
+        height: 100px;
+        width: auto;
+    }
 }
