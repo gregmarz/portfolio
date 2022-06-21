@@ -15,18 +15,14 @@
 hr {
     clear:both;
     display:block;
-    width: 96%;               
-    background-color:#FFFF00;
-    height: 1px;
+    width: 100%;               
   }
 
 header {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100px;
     background-color: var(--coral);
-    position: relative;
 }
 
 header h1 {
@@ -39,21 +35,18 @@ header h1 {
     width: fit-content;
     padding-left: 25px;
     padding-right: 5px;
-    font-weight: bold;
     align-items: center;
     border: 1px solid black;
 }
 
 #navSec a {
-    margin-right: 15px;
     display: flex;
     flex-direction: row;
     float: right;
+    margin-right: 10px;
+    background-color: var(--cyan);
     border: 1px solid black;
     border-radius: 10px;
-    background-color: var(--cyan);
-    list-style-type: none;
-    width: fit-content;
     padding: 2px;
     text-decoration: none;
     color: black;
@@ -68,31 +61,33 @@ main {
 
 #aboutMe {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    padding: 2%;
     align-items: center;
 }
 
-#aboutMe div {
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-#aboutMe h2 {
+#aboutMe h2  {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2%;
 }
 
 #aboutMe img {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 5%;
     height: 250px;
-    width: auto;
+    padding-right: 2%;
+} 
+
+#workBig img {
+    /* height: 300px;
+    margin: 10px;
+    border: 5px solid var(--cyan);
+    display: flex;
+    justify-content: center;
+    align-items: center; */
 }
 
+#workBig img:hover {
+    box-shadow: 8px 2px 5px var(--cyan);
+}
 
 /* footer {
     display: flex;
@@ -103,3 +98,29 @@ main {
     background-color: var(--coral);
     color: white;
 } */
+
+@media screen and (max-width:280px) {
+    #navSec a {
+        padding: 0;
+        margin-right: 5px
+    }
+
+    header h1   {
+        margin-bottom: 2px;
+    }
+}
+
+
+@media screen and (max-width:400px) {
+   #aboutMe img {
+    height: 100px;
+   }
+   
+}
+
+@media screen and (max-width:720px) {
+    #aboutMe img {
+    height: 100px;
+    }    
+}
+
