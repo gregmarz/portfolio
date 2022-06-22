@@ -18,4 +18,4 @@ This is a portfolio of various applications deployed to github pages, useable by
 
 ## Images
 
-![Title Page Screenshot](../Screenshot_1.png)
+![Title Page Screenshot](Screenshot_1.png)
