@@ -1,10 +1,7 @@
 # HTML Portfolio
 
-===
-
 ## Project Description
 
----
 This is a portfolio of various applications deployed to github pages, useable by anybody. And all the featured apps are developed by me, or me and a partner.
 
 * This website has Navigation links that redirect your page to the correct location on the webpage
@@ -13,17 +10,11 @@ This is a portfolio of various applications deployed to github pages, useable by
 
 ## Tools Used
 
----
-
 ### HTML,CSS
 
 ## Link
 
----
-
 <https://gregmarz.github.io/portfolio/>
-
----
 
 ## Images
 
